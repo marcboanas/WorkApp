@@ -1,0 +1,106 @@
+<div id="modal_cover"></div>
+<div class="modal_window" id="account_info">
+  <button class="close">x</button>
+  <div class="modal_header with_tabs">
+    <h3>Preferences</h3>
+    <div class="dialog_tabs">
+      <a class="active" id="account_info">Account Info</a>
+      <a class=""id="payment_info">Payment Info</a>
+      <a class="" id="subscription_info">Subscription Info</a>
+  </div>
+  <div class="modal_body_scroll_wrapper">
+    
+    <div class="modal_body_scroll_bar " style="margin-left: 546.5px; display: block; height: 374px;">
+      <div class="modal_body_scroll_handle " style="left: 0px; height: 304.04040404040404px; top: 0px;">
+        <div class="modal_body_scroll_handle_inner "></div>
+      </div>
+    </div>
+    <div class="modal_body_scroll_hider " style="width: 543px; margin-right: 17px;">
+      <div id="modal_body" class="modal_body modal_body_scrollable modal_body_scroller" style="overflow-y: visible; width: 560px;">
+        <div id="account_info" class="modal_pane active_pane">
+          <p class="bold small_bottom_margin grey">
+            <span>Desktop Notifications</span>
+            <span class="mini small_left_margin"><a>Send Test Notification</a></span>
+          </p>
+          <p class="left_margin small_bottom_margin">
+            <label class="radio no_margin">
+						<input name="notifications_rd" type="radio" class="small_right_margin" value="all"> For activity of any kind
+					  </label>
+            <label class="radio no_margin">
+						<input name="notifications_rd" type="radio" class="small_right_margin" value="mentions" checked="checked"> Only for Highlight Words and direct messages
+					  </label>
+            <label class="radio no_margin">
+						<input name="notifications_rd" type="radio" class="small_right_margin" value="never"> Never
+					  </label>
+          </p>
+          <p id="no_non_default" class="mini bottom_margin">
+            You can override this preference on a case-by-case basis for channels and groups from the channel or group menu. You can also set <a href="/account/notifications" target="_blank">notification preferences for email &amp; mobile</a>.
+          </p>
+          <p class="bold no_bottom_margin small_top_margin grey">Notification Extras</p>
+          <p class="small_bottom_margin no_top_margin">
+            Choose a notification sound:
+            <select>
+              <option value="none">None (sound off)</option>
+              <option value="none">Music</option>
+            </select>
+            <span class="small_left_margin mini"><a>Preview</a></span>
+          </p>
+          <p class="bold no_bottom_margin small_top_margin grey">Highlight Words</p>
+          <p class="small_bottom_margin no_top_margin">
+            To be notified when someone mentions a word or phrase, add it here.
+          </p>
+          <p class="no_bottom_margin">
+            <textarea class="no_bottom_margin full_width" style="height: 37px;" placeholder="Your screen name marcboanas is automatically a Highlight Word."></textarea>
+          </p>
+          <p class="mini no_bottom_margin no_top_margin">
+            You can separate words or phrases with commas. Highlight Words are not case sensitive. Your screen name will automatically trigger a notification.
+          </p>
+        </div>
+        <div id="payment_info" class="modal_pane">
+          <p class="bold small_bottom_margin grey">Message Theme</p>
+          <p class="small_bottom_margin no_top_margin">The theme you choose defines the look and feel of messages in Slack.</p>
+          <p class="left_margin no_top_margin">
+            <label class="radio no_margin">
+					    <input type="radio" class="small_right_margin" checked="checked"> Clean: <span class="normal">Clear, friendly, and focused.</span>
+				    </label>
+            <label class="radio no_margin">
+					    <input type="radio" class="small_right_margin"> Compact: <span class="normal">The most messages you can fit on screen at once.</span>
+				    </label>
+          </p>
+          <p class="bold small_bottom_margin grey">Emoji Style</p>
+          <p class="small_bottom_margin no_top_maargin">How do you like your emoji?</p>
+          <p class="left_margin no_top_margin">
+            <label class="radio no_margin">
+              <input type="radio" class="small_right_margin" checked="checked">Apple/International Style
+            </label>
+            <label class="radio no_margin">
+              <input type="radio" class="small_right_margin">Google Hangouts
+            </label>
+          </p>
+          <p class="bold small_bottom_margin grey">Inline Media Display</p>
+          <p class="small_bottom_margin no_top_margin">Expand references to images, video, and audio to preview them inline:</p>
+          <p class="left_margin no_top_margin no_bottom_margin">
+            <label class="checkbox no_margin">
+              <input type="checkbox" class="small_right_margin">For files on Slack
+            </label>
+            <label class="checkbox no_margin">
+              <input type="checkbox" class="small_right_margin">For links to media from external sources
+            </label>
+          </p>
+          <p class="large_left_margin no_top_margin">
+            <label class="checkbox no_margin">
+               <input type="checkbox" class="small_right_margin">even if it is an image larger than 2MB
+            </label>
+          </p>
+        </div>
+        <div id="subscription_info" class="modal_pane">
+          <p>Subscription Info</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal_footer">
+    <a class="btn">Done</a>
+  </div>
+</div>
+</div>

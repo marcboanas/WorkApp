@@ -1,0 +1,150 @@
+// Small screens
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) {
+  .show_for_small_only {
+    visibility: visible;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: hidden;
+  }
+  .show_for_large_only {
+    visibility: hidden;
+  }
+  .show_for_large_up {
+    visibility: hidden;
+  }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+// Medium screens
+@media only screen and (min-width: 40.063em) {
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: visible;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: hidden;
+  }
+  .show_for_large_up {
+    visibility: hidden;
+  }
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: hidden;
+  }
+  .show_for_large_up {
+    visibility: hidden;
+  }
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+// Large screens
+@media only screen and (min-width: 64.063em) { 
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: visible;
+  }
+  .show_for_large_up {
+    visibility: visible;
+  }
+} /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: visible;
+  }
+  .show_for_large_up {
+    visibility: visible;
+  }
+} /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+// XLarge screens
+@media only screen and (min-width: 90.063em) { 
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: visible;
+  }
+  .show_for_large_up {
+    visibility: visible;
+  }
+} /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: hidden;
+  }
+  .show_for_large_up {
+    visibility: visible;
+  }
+} /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+// XXLarge screens
+@media only screen and (min-width: 120.063em) { 
+  .show_for_small_only {
+    visibility: hidden;  
+  }
+  .show_for_medium_only {
+    visibility: hidden;
+  }
+  .show_for_medium_up {
+    visibility: visible;
+  }
+  .show_for_large_only {
+    visibility: hidden;
+  }
+  .show_for_large_up {
+    visibility: visible;
+  }
+} /* min-width 1921px, xlarge screens */

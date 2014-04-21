@@ -1,0 +1,91 @@
+keygen, select, select[size="0"], select[size="1"] {
+  border-radius: 0px;
+  border-color: rgb(169, 169, 169);
+}
+
+select {
+  -webkit-appearance: menulist;
+  box-sizing: border-box;
+  align-items: center;
+  border: 1px solid;
+  font-family: Arial;
+  font-size: 13px;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  color: black;
+  cursor: default;
+  margin: 2px 0px 2px 0px;
+  width: 12rem;
+}
+
+input, textarea, keygen, select, button, isindex {
+  margin: 0em;
+  font: -webkit-small-control;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+}
+
+textarea {
+  width: 460px;
+  height: 120px;
+  padding: .5rem;
+  font-size: 15px;
+  line-height: 1.2rem;
+  resize: vertical;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  font-family: 'Lato',sans-serif;
+  display: inline-block;
+  height: 1.9rem;
+  font-size: 15px;
+  color: #555459;
+  -webkit-border-radius: .25rem;
+  -moz-border-radius: .25rem;
+  border-radius: .25rem;
+  vertical-align: middle;
+  margin-bottom: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;  
+}
+
+input[type="text"].search_input {
+  padding: 2px 2rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  font-size: 15px;
+  width: 100%;  
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border linear .2s,box-shadow linear .2s;
+  -moz-transition: border linear .2s,box-shadow linear .2s;
+  -o-transition: border linear .2s,box-shadow linear .2s;
+  transition: border linear .2s,box-shadow linear .2s;
+  box-sizing: border-box;
+  display: inline-block;
+    &:focus {
+      outline: none !important;
+    }
+}
+
+.icon_input_prefix {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  color: #babbbf;
+}

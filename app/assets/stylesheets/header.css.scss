@@ -1,0 +1,125 @@
+#header {
+  background: white;
+  height: 53px;
+  width: 100%;
+  min-width: 768px;
+  position: fixed;
+  z-index: 100;
+}
+
+#header_left {
+  position: relative;
+  padding: 0;
+  margin: 0 392px 0 0;
+}
+
+#left_menu {
+  background: #3e313c;
+  border-bottom: 2px solid #372c36;
+  position: relative;
+  float: left;
+  font-size: 1rem;
+  width: 220px;
+  height: 53px;
+  line-height: 53px;
+  font-weight: 900;
+  padding: 0 1rem;
+  color: white;
+  cursor: pointer;
+  i {
+    position: absolute;
+    top: 1.1rem;
+    right: 1rem;
+    color: #a09a9f;
+    -webkit-animation: fadeIn 2s infinite; /* Safari 4+ */
+    -moz-animation:    fadeIn 2s infinite; /* Fx 5+ */
+    -o-animation:      fadeIn 2s infinite; /* Opera 12+ */
+    animation:         fadeIn 2s infinite; /* IE 10+ */
+    }
+}
+
+#left_menu:hover {
+  i {
+    color: #fc0;
+  }
+}
+
+h2#business_title {
+  margin: 0 1rem 0 0;
+  color: #9e9ea6;
+  font-weight: 500;
+  font-size: 1rem;
+  height: 53px;
+  line-height: 53px;
+  cursor: pointer;
+}
+
+span.icon_prefix {
+  color: #fc0;
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  line-height: 53px;
+  height: 53px;
+  position: relative;
+    i {
+      position: absolute;
+      top: 0px;
+      right: 10px;
+      opacity: 0.2;
+      font-size: 1rem;
+        &:hover {
+          opacity: 1;
+        }
+      }
+}
+
+.name_title {
+  line-height: 53px;
+  font-weight: 900;
+  color: #555459;
+  font-size: 1.2rem;
+  padding: 0 0.5rem 0 0rem;
+  height: 53px;
+    i.postfix {
+    padding-left: 1rem;
+    color: #9e9ea6;
+      &:hover {
+      color: #555459;
+      }
+    }
+}
+
+#search_container {
+}
+
+form.search_form {
+  width: 442px;
+  margin: 12px 0 0 0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding-right: 118px !important;
+}
+
+.header_links {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  height: 30px;
+    i {
+      padding: 3px 7px;
+      border-radius: 0.25rem !important;
+      border: 1px solid #EEE !important;
+        &:hover {
+          background: #f1f7fa;
+          border: 1px solid #CCC;
+          color: #2a80b9;
+        }
+    }
+    a {
+      color: #4d394b !important;
+      font-size: 21px !important;
+    }
+}
